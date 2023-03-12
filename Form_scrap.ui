@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1232</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0.784091, y1:0.102, x2:0, y2:1, stop:0.232955 rgba(189, 44, 161, 255), stop:0.596591 rgba(28, 73, 236, 255))</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+background-color: qlineargradient(spread:pad, x1:0.784091, y1:0.102, x2:0, y2:1, stop:0.232955 rgba(189, 44, 161, 255), stop:0.596591 rgba(28, 73, 236, 255));</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="insideForm">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(227, 227, 227);
+border-radius:10px;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="menuForm">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>291</width>
+         <height>757</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(60, 91, 158);
+border-radius:10px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="logo">
+        <property name="geometry">
+         <rect>
+          <x>-140</x>
+          <y>-110</y>
+          <width>561</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/logo/C:/Users/DELL/Downloads/image-removebg-preview.png);
+background-color: none;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnAlgoritm">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>340</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 0.8em 1.5em;
+border-radius:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 5px;
+border:2px solid rgb(55, 75, 108);
+font-weight:bold;
+</string>
+        </property>
+        <property name="text">
+         <string>Algorithm</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnScrapping">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>220</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 0.8em 1.5em;
+border-radius:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 5px;
+border:2px solid rgb(55, 75, 108);
+font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Scrapping</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnProduct">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>280</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 0.8em 1.5em;
+border-radius:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 5px;
+border:2px solid rgb(55, 75, 108);
+font-weight:bold;
+</string>
+        </property>
+        <property name="text">
+         <string>Products</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnDashboard">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>160</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 0.8em 1.5em;
+border-radius:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 5px;
+border:2px solid rgb(55, 75, 108);
+font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Dashboard</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnExit">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>400</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 0.8em 1.5em;
+border-radius:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 5px;
+border:2px solid rgb(55, 75, 108);
+font-weight:bold;</string>
+        </property>
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+       <zorder>btnAlgoritm</zorder>
+       <zorder>btnScrapping</zorder>
+       <zorder>btnProduct</zorder>
+       <zorder>btnDashboard</zorder>
+       <zorder>btnExit</zorder>
+       <zorder>logo</zorder>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>10</y>
+         <width>261</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>35</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(60, 91, 158);</string>
+       </property>
+       <property name="text">
+        <string>Scrapping</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnStopScrap">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>610</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+border:2px solid rgb(55, 75, 108);
+padding: 0.8em 1.5em;
+border-radious:2px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 10px;
+align-item:center;
+font-weight:bold;</string>
+       </property>
+       <property name="text">
+        <string>stop</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnStartScrap">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>600</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+border:2px solid rgb(55, 75, 108);
+padding: 0.8em 1.5em;
+text-decoration: none;
+font-size: 1em;
+border-radius: 10px;
+align-item:center;
+font-weight:bold;</string>
+       </property>
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>325</x>
+         <y>90</y>
+         <width>841</width>
+         <height>411</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>520</y>
+         <width>761</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+text-align:center;
+border:2px solid rgb(55, 75, 108);
+padding: 0.8em 1.5em;
+text-decoration: none;
+font-size: 1em;
+border-radius: 10px;
+align-item:center;
+font-weight:bold;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QProgressBar" name="pBar">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>761</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="value">
+         <number>50</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <zorder>frame_2</zorder>
+      <zorder>menuForm</zorder>
+      <zorder>label</zorder>
+      <zorder>btnStopScrap</zorder>
+      <zorder>btnStartScrap</zorder>
+      <zorder>tableWidget</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
